@@ -1,0 +1,67 @@
+{
+  "name": "BtimeTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "jetify": "npx jetify",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@hookform/resolvers": "^3.1.0",
+    "@react-native-async-storage/async-storage": "^1.18.1",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@reduxjs/toolkit": "^1.9.5",
+    "add": "^2.0.6",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "date-fns": "^2.30.0",
+    "react": "16.13.1",
+    "react-hook-form": "^7.43.9",
+    "react-native": "0.63.4",
+    "react-native-dnd-board": "0.0.5",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-masked-text": "^1.13.0",
+    "react-native-modal": "^13.0.1",
+    "react-native-reanimated": "1.13.4",
+    "react-native-safe-area-context": "3.4.1",
+    "react-native-screens": "3.0.0",
+    "react-native-svg": "^13.9.0",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-redux": "^8.0.5",
+    "reactotron-react-native": "^5.0.3",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.5",
+    "yarn": "^1.22.19",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/runtime": "^7.12.13",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/styled-components-react-native": "^5.1.3",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.19.0",
+    "jest": "^26.6.3",
+    "jetifier": "^2.0.0",
+    "metro-react-native-babel-preset": "^0.65.0",
+    "react-native-eject": "^0.2.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
